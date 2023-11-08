@@ -1,9 +1,17 @@
+const express = require('express');
+const path = require('path');
+
+
+
+
+
 let noteForm;
 let noteTitle;
 let noteText;
 let saveNoteBtn;
 let newNoteBtn;
 let noteList;
+
 
 if (window.location.pathname === '/notes') {
   noteForm = document.querySelector('.note-form');
